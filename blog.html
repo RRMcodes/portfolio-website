@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="description" content="This webpage represents coursework 3 from the modile introduction to information system">
+    <meta name="keywords" content="portfolio website, website, CV, blog, portfolio, html, css, javascript ">
+    <meta name="author" content="Regan Raj Maharjan">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Blog</title>
+    <link rel="stylesheet" href="coursework.css"><!-- linking external css file-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"> <!-- importing social media fonts from font awesome -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet"><!-- importing raleway font from google fonts-->
+
+    <style>/* internal css for navigation buttons and social media icons*/
+        .btn {
+            color: black;
+        }
+
+        .pressed {
+            color: black;
+            border-bottom: 3px solid black ;
+        }
+
+        .btn:hover {
+            border-bottom: 3px solid black;
+        }
+
+        .icons i {
+            color: black;
+        }
+
+    </style>
+</head>
+<di>
+
+    <div class="container blog">
+        <div class="header" style="background-image: url(images/blogbg.jpg);">
+            <nav class="nav"> <!-- creating navigation bar -->
+
+                <img src="images/logob.png" alt="logo"><!-- logo-->
+
+                <!-- navigation buttons-->
+                <a href="home.html" class="btn"> Home </a> 
+                <a href="cv.html" class="btn"> CV </a>
+                <a href="research.html" class="btn"> research </a>
+                <a href="blog.html" class="btn pressed"> Blog </a>
+                <a href="contact.html" class="btn"> contact </a>
+
+                <div class="icons"><!--social media icons-->
+                    <a href="https://facebook.com"> <i id="facebook" class="fab fa-facebook "></i> </a>
+                    <a href="https://twitter.com"> <i id="twitter" class="fab fa-twitter "></i> </a>
+                    <a href="https://instagram.com"> <i id="instagram" class="fab fa-instagram "></i> </a>
+                    <a href="https://youtube.com"> <i id="youtube" class="fab fa-youtube "></i> </a>
+                    <a href="https://linkedin.com"> <i id="linkedin" class="fab fa-linkedin "></i> </a>
+                </div>
+            </nav>
+
+            <div id="topblock" >
+                <p>few words here.</p> <!-- huge text in header-->
+            </div>
+
+        </div>
+     
+        <div class="main"><!-- main section-->
+
+            <div id="block1" class="block white"><!-- main section of blog with associated images-->
+
+                <h1>Impact of Technologies on an individual's daily life</h1><!-- title of blog-->
+
+                <!-- text in the blog with associated images -->
+                <p class="text"> Technology has never been this advanced. From messaging colleagues to travelling on autonomous cars, in this day and age, the world is heavily dominated by technology. The field of technology has been progressive to such an extent that most business and manufacturing companies today, are integrated with automation to optimize time consumption along with enhanced production. Amongst any other technologies, internet technology has contributed the most to revolutionize the world. 
+                </p>
+
+                <p>
+                    A decade or two in past, people sat in front of TV to watch different programs, while today, almost all of us carry on-demand-handheld TVs in our pocket which allows us to watch shows and movies irrespective of time and place. These flexibilities are the prime factors which contributed for the shift of preference of people from TV channels to sites like Netflix.
+                </p>
+
+                <img src="images/netflix.jpg" alt="netflix">
+
+                <p>
+                    With the advancement of Internet and communication technologies, people around the world can have conversation, share ideas or conduct a meeting with just a few convenient clicks, or taps if its a touch screen device. There are various software applications online, which helps people gather virtually, helping students to collaborate on a project, allowing people to conduct meeting and many more, despite being at different locations around the world. In fact, these features of internet technology have helped institutions around the world to consistently conduct their lectures or classes online, even in the period of pandemic such as covid-19.
+                </p>
+
+                <img src="images//zoom.jpg" alt="zoom">
+
+                <p>
+                    Technology has completely changed the way we had been learning in schools and colleges. Previously we hate to take a bag full of book, copies and other instruments to school while today, we simply carry a laptop which can store millions of books. Apart from academic institutions, on this day, learning has been easier and simpler than ever before. With the access of internet-a powerful tool, anyone can possibly learn anything online, through multitude of resources, without having to ask someone on phone or seek help in person. Instead of searching for pages in a dictionary, we simply lookup anything online as Information about any particular thing can be found on the internet, which has slowly replaced dictionaries. Accessing information for people today is way quicker and easier than before as search engines like google and Bing provide any searched information in milliseconds.
+                </p>
+
+                <img src="images//google.jpg"  alt="google">
+
+                <p>Convenience is what people desire and internet has fulfilled it in every way possible. Newly developed mobile banking and e-banking applications has made it possible to perform any transaction online. Again, with this flexibility, people can pay bills or transfer money form any place and anytime. Online banking would have been impossible to think about a few decades ago, when people could only perform transactions from banks, and that too within a specified time. Furthermore, internet has provided a platform for e-commerce and online trading business with which people can literally purchase anything online and get them delivered to their houses. In these ways, internet has simplified an individual’s life as now, a person does not need to travel constantly to run different errands and thus, can save time.</p>
+                
+                <p >2021 May 27, Regan Raj Maharjan</p>
+
+                <div #="commentsection"><!-- comment section of blog page-->
+                    <h2>comment</h2>
+                    <textarea name="commentbox" id="commentbox" placeholder="type your comment here" cols="30" rows="10"></textarea>
+                    <button id="commentbtn" onclick="comment()">post comment</button>
+                </div>
+            </div>
+
+            <div id="block2" class="block black"> <!-- recent posts at the bottom of the page with associated images-->
+                <h2>recent posts</h2>
+                <div class="recentposts">
+                    <div class="posts"> 
+                        <img src="images/code.jpg" alt="code pic" height="200" width="250">
+                        <p class="post"> How i learned coding online</p>
+                        <button class="postbtn"> view post </button>
+                    </div>
+                    <div class="posts"> 
+                        <img src="images/guitar.jpg" alt="guitar pic"  height="200" width="250">
+                        <p class="post"> Learning flamenco guitar</p>
+                        <button class="postbtn"> view post </button> 
+                    </div>
+                    <div class="posts">
+                        <img src="images/esports.jpg" alt="esports pic"  height="200" width="250">
+                        <p class="post"> sports vs esports</p>
+                        <button class="postbtn"> view post </button>
+                    </div>
+                </div>  
+            </div>
+        </div>
+
+        <div class="footer"><!--footer with copyright info -->
+           <p>copyright &copy; 2021 All rights reserved | Created by Regan Raj Maharjan</p> 
+        </div>
+
+    </div>
+
+    <!-- linking external javascript file -->
+    <script src="coursework.js">        
+    </script>
+</body>
+</html>

@@ -1,0 +1,580 @@
+/*following styles are appllied to all the html pages*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    overflow-x: hidden;
+}
+
+/* this is header style  for all pages*/
+.header {
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;   
+    user-select: none;
+}
+
+/* style for navigation bar for all pages*/
+.nav {
+   position:relative;
+   top: 0;
+}
+
+/*this style applies to the image after navigation bar for all pages */
+.nav img {
+    height: 100px;
+    width: 100px;
+    margin: 0 50px 0 50px;
+    display: inline-block;
+}
+
+/* this style is for navigation buttons of all pages*/
+.btn {
+    text-decoration: none;
+    font-family: sans-serif;
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+    padding: 15px  0 15px 0;
+    font-weight:bold;
+    color: white;
+}
+
+.pressed {
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+.btn:hover {
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+.icons {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+}
+
+.icons a {
+    text-decoration: none;
+}
+
+.icons i {
+    margin: 0 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.nav #facebook:hover{
+   color: #3b5998;
+}
+
+.nav #twitter:hover{
+  color: #00acee;
+}
+
+.nav #instagram:hover {
+ 
+ color: #b51ec9;
+
+}
+.nav #youtube:hover {
+   color: #c4302b ;
+}
+
+.nav #linkedin:hover {
+    color: rgb(106, 154, 241);
+}
+
+.header,.main .block {
+    height: 120vh;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main .black { /*this style applies for section with class black in all pages */
+    background-color: rgb(12, 0, 0);
+    color: rgb(211, 211, 211);
+}
+
+.main .white {/*this style applies for section with class white in all pages */
+    background-color: rgb(211, 211, 211);
+}
+
+
+/* styles for home page starts from here*/
+.home .header h1{
+    font-size: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 100px 50px 20px 100px;
+    color: rgb(150, 150, 150);
+}
+
+.home .header p {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+    color: rgb(150, 150, 150);
+}
+
+.home #block1 div {
+    margin-left:500px;
+}
+
+.home #block1 p {
+    font-size: 25px;
+}
+
+.home #block1 #p1 {
+    margin: 150px 0 100px 150px;
+} 
+
+.home #block1 h2 {
+    font-size: 60px;
+    color: rgb(41, 41, 41);
+    margin-bottom: 50px;
+}
+
+.home #block2 {
+    height: auto;
+}
+
+.home #block2 h2 {
+    font-size: 40px; 
+    text-align: center; 
+    margin: 100px 50px;  
+}
+
+.home #block2 p {
+    font-size: 20px;
+    display: inline-block;
+    border: 1px solid rgb(240, 140, 53);
+    padding:20px;
+    margin-left: 40%; 
+    margin-bottom: 200px;
+
+}
+
+.home #block2 p:hover {
+    background-color: rgb(240, 140, 53);
+    color: black;
+}
+
+.home #block3 {
+    background: url(images//phone.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.home #block3 h2 {
+    font-size: 50px;
+    margin:100px ;
+    text-align: center;
+    color: rgb(231, 231, 231);
+}
+
+.home #block3 form {
+    margin-left: 450px;
+    margin-right: 400px;
+    background-color: rgba(56, 56, 56, 0.459);
+    color: white;
+}
+
+.home #block3 table td {
+    font-size: 18px;
+    outline: none;
+    padding: 10px;
+}
+
+ .home #block3 form label, .home #block3 form select {
+    font-size: 17px;
+}
+
+.home #block3 form input, .home #block3 form textarea, .home #block3 form select,.home #block3 form option {
+    font-size: 17px;
+    background-color: rgb(223, 223, 223);
+    outline: none;
+}
+
+.home #block3 table #message {
+    padding: 10px;
+    width: 100%;
+    height: 150px;
+}
+
+.home #block3 .btn {
+    padding:5px;
+    color:black;
+}
+
+
+/*styles for cv page starts here*/
+.cv .header p {
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 300px 0 0 100px ;
+    color: rgb(150, 150, 150);
+}
+
+.cv #block1 {
+    height: auto;
+}
+
+.cv #block1 h1{
+    font-family: serif;
+    font-size: 60px;
+    margin: 80px;
+    text-align: center;
+}
+
+.cv #block1 p {
+    padding: 0 250px;
+}
+
+.cv #block1 h2 {
+    display: inline-block;
+    font-size: 40px;
+    position: relative;
+    top: -440px;
+    margin: 0 100px 0 200px;
+}
+
+.cv #block1 ul {
+    display: inline-block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.cv #block1 ul li {
+    font-size: 18px;
+    padding: 20px;
+    margin-left: 150px;
+    list-style: circle;
+
+}
+
+
+
+.cv #block2 h2 {
+    display: inline-block;
+    font-size: 40px;
+    position: relative;
+    top: -400px;
+    margin: 0 200px;
+}
+
+.cv #block2 ul {
+    display: inline-block;
+    margin-top: 100px;
+}
+
+.cv #block2 ul :first-child {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.cv #block2 ul li {
+    font-size: 18px;
+    padding: 20px;
+    margin-left: 150px;
+    list-style: circle;
+
+}
+
+.cv #block3 {
+    height: 110vh;
+}
+
+.cv #block3 h2 {
+    font-size: 40px;
+    display: inline-block;
+    margin: 0px 250px 400px 200px;
+}
+
+.cv #block3 div {
+    display: inline-block;
+    margin-top: 120px;
+} 
+
+.cv #block3 .course {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px ;
+}
+
+.cv #block3 .institute {
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.cv #block3 ul {
+    display: inline-block;
+    margin-top: -45px;
+    margin-bottom: 50px;
+}
+
+.cv #block3 ul li {
+    font-size: 18px;
+    margin:0 0 10px 0 ;
+}
+
+
+/* style for research page starts here*/
+
+.research .header p {
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 300px 0 0 100px ;
+    color: rgba(0, 0, 0, 0.712);
+}
+
+.research .block {
+    height: auto;
+    padding: 5% 20% 0 20%;
+    font-family: "raleway",sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    text-indent: 50px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.research .main .block img {
+    height: 500px;
+    width: 800px;
+}
+
+.research .main .block p {
+    margin-bottom: 50px;
+}
+
+.research .block h2 {
+    margin-bottom: 25px;
+    padding: 5px;
+}
+
+.research .white .btn{
+    color: #000;
+    padding: 10px;
+    background-color: rgb(211, 211, 211);
+    border: 2px solid rgb(240, 140, 53);
+
+}
+
+.research .white .btn:hover{
+    color: #000;
+    background-color:  rgb(240, 140, 53);
+
+}
+
+.research .black .btn {
+    color: white;
+    padding: 10px;
+    background-color: black;
+    border: 2px solid rgb(240, 140, 53);
+}
+
+.research .black .btn:hover {
+    color: #000;
+    background-color:  rgb(240, 140, 53);
+}
+
+
+/* following are the styles for blog page*/
+
+
+.blog .header p {
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 200px 0 0 100px ;
+    color: rgb(51, 51, 51);
+}
+
+
+.blog #block1 {
+    padding: 100px 100px;
+    height: auto;
+    background-color: rgb(231, 230, 230);
+}
+
+.blog #block1 h1 {
+    text-align: center;
+    font-family: garamond;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.blog #block1 p {
+    padding: 25px 200px;
+    font-family: "raleway",sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    text-indent: 50px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.blog #block1 img {
+    width: 100%;
+}
+
+.blog #block1 h2{
+    margin: 50px 0 30px 20%;
+}
+
+.blog #block1 #commentbox {
+    width: 60%;
+    height: 200px;
+    resize: none;
+    margin-left:20%;
+    margin-bottom: 10%;
+    padding: 25px;
+    font-size: 18px;
+    outline: none;
+}
+
+.blog #commentbtn {
+    padding: 10px;
+    background-color:  rgb(12, 0, 0);
+    color: white;
+    position:relative;
+    top: -90px;
+    right: 120px;
+    font-size: 15px;
+}
+
+.blog #commentbtn:hover {
+    background-color: rgb(56, 56, 56);
+}
+
+.blog #commentbtn:active {
+    background-color: rgb(12, 0, 0);
+}
+
+.blog #block2 h2 {
+    padding: 100px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.blog #block2 .recentposts {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.blog #block2 .recentposts img {
+    overflow: hidden;   
+}
+
+.blog #block2 .posts {
+    padding: 50px 25px 25px 25px;
+    font-size: 20px;
+    height: 400px;
+    width: 300px;
+    background-color: rgb(211, 211, 211);
+    color: black;
+    border-radius: 5px;
+}
+
+.blog #block2 .postbtn {
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 150px;
+    color: white;
+    background-color: black;
+}
+
+
+
+.contact .header p {
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 250px 0 0 100px ;
+    color: rgb(150, 150, 150);
+}
+
+.contact #block1 h2 {
+    font-size: 40px;
+    display: inline-block;
+    margin: 0px 200px 370px 200px;
+}
+
+.contact #block1 .right {
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.contact #block1 .right .label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contact #block1 .right .value {
+    margin-bottom: 50px;
+}
+
+
+/* following are the style for cookie setting pop-up*/
+#cookie {
+    font-family: Arial, Helvetica, sans-serif;
+    padding:30px;
+    background-color: rgb(221, 221, 221);
+    border-radius: 25px;
+    position:fixed;
+    bottom:0;
+    width: 80%;
+    padding-right: 20%;
+    padding-left: 10%;
+    display: none;
+    box-shadow: 5px 10px 10px rgb(37, 37, 37);
+}
+
+#cookiebtn {
+    display: inline-block;
+    background-color: rgb(109, 109, 109);
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    position: absolute;
+    top: 50px;
+    right: 80px;
+}
+
+#cookiebtn:hover {
+    background-color: rgb(75, 75, 75);
+}
+
+/* style for footer*/
+.footer {
+    color: rgb(192, 192, 192);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    padding: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="description" content="This webpage represents coursework 3 from the module introduction to information system">
+    <meta name="keywords" content="portfolio website, website, CV, blog, portfolio, html, css, javascript ">
+    <meta name="author" content="Regan Raj Maharjan">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Home</title>
+    <link rel="stylesheet" href="coursework.css"><!-- linking external css file-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"> <!-- importing social media fonts from font awesome -->
+</head>
+<body>
+
+    <div class="container home" >
+        <div class="header" style="background-image: url(images/homebg.jpg);">
+            <nav class="nav"> <!-- creating navigation bar -->
+
+                <!-- logo-->
+                <img src="images/logow.png" alt="logo">
+
+                <!-- navigation buttons-->
+                <a href="home.html"  class="btn pressed"> Home </a> 
+                <a href="cv.html" class="btn"> CV </a>
+                <a href="research.html" class="btn"> research </a>
+                <a href="blog.html" class="btn"> Blog </a>
+                <a href="contact.html" class="btn"> contact </a>
+
+                <!-- social media buttons-->
+                <div class="icons">
+                    <a href="https://facebook.com"> <i id="facebook" class="fab fa-facebook "></i> </a>
+                    <a href="https://twitter.com"> <i id="twitter" class="fab fa-twitter "></i> </a>
+                    <a href="https://instagram.com"> <i id="instagram" class="fab fa-instagram "></i> </a>
+                    <a href="https://youtube.com"> <i id="youtube" class="fab fa-youtube "></i> </a>
+                    <a href="https://linkedin.com"> <i id="linkedin" class="fab fa-linkedin "></i> </a>
+                </div>
+            </nav>
+
+            <div id="topblock" > <!-- huge text on header-->
+                <h1>portfolio</h1>
+                <p>website</p>
+            </div>
+
+        </div>
+
+        <div class="main">
+            <div id="block1" class="block white"><!-- first section of home page-->
+                <p id="p1">Hello, i am Regan,</p>
+                <div>
+                    <h2>a Web Developer,</h2>
+                    <h2>a Java Developer,</h2>
+                    <p>and</p>
+                    <h2>a Graphic designer</h2>
+                </div>
+            </div>
+
+            <div id="block2" class="block black"> 
+                <h2>Want a perfect website for your company ?</h2><!-- second section of home page-->
+                <p>invite me for collaboration</p>
+            </div>
+
+
+            <div id="block3" class="block white"><!-- third section of home page-->
+
+               <h2>Stay connected !</h2> <!-- heading-->
+
+               <form action="portfolio.php" method="post" name="messageform"><!-- form-->
+
+                   <table><!-- table inside form-->
+                        <tr>
+                            <td><label for="fname">First Name </label></td>
+                            <td><input type="text" id="fname" name="fName" ></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="lname"> Last Name</label></td>
+                            <td><input type="text" id="lname" name="lName" ></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="country">select your country</label></td><!-- dropdown to choose country in the form-->
+                            <td><select id="country" name="country" type="text">          
+                                <option>Afghanistan</option>
+                                <option>Albania</option>
+                                <option>Algeria</option>
+                                <option>Andorra</option>
+                                <option>Angola</option>
+                                <option>Antigua and Barbuda</option>
+                                <option>Argentina</option>
+                                <option>Armenia</option>
+                                <option>Australia</option>
+                                <option>Austria</option>
+                                <option>Azerbaijan</option>
+                                <option>The Bahamas</option>
+                                <option>Bahrain</option>
+                                <option>Bangladesh</option>
+                                <option>Barbados</option>
+                                <option>Belarus</option>
+                                <option>Belgium</option>
+                                <option>Belize</option>
+                                <option>Benin</option>
+                                <option>Bhutan</option>
+                                <option>Bolivia</option>
+                                <option>Bosnia and Herzegovina</option>
+                                <option>Botswana</option>
+                                <option>Brazil</option>
+                                <option>Brunei</option>
+                                <option>Bulgaria</option>
+                                <option>Burkina Faso</option>
+                                <option>Burundi</option>
+                                <option>Cabo Verde</option>
+                                <option>Cambodia</option>
+                                <option>Cameroon</option>
+                                <option>Canada</option>
+                                <option>Central African Republic</option>
+                                <option>Chad</option>
+                                <option>Chile</option>
+                                <option>China</option>
+                                <option>Colombia</option>
+                                <option>Comoros</option>
+                                <option>Democratic Republic of the Congo</option>
+                                <option>Republic of the Congo</option>
+                                <option>Costa Rica</option>
+                                <option>Croatia</option>
+                                <option>Cuba</option>
+                                <option>Cyprus</option>
+                                <option>Czech Republic</option>
+                                <option>Denmark</option>
+                                <option>Djibouti</option>
+                                <option>Dominica</option>
+                                <option>Dominican Republic</option>
+                                <option>East Timor (Timor-Leste)</option>
+                                <option>Ecuador</option>
+                                <option>Egypt</option>
+                                <option>El Salvador</option>
+                                <option>Equatorial Guinea</option>
+                                <option>Eritrea</option>
+                                <option>Estonia</option>
+                                <option>Eswatini</option>
+                                <option>Ethiopia</option>
+                                <option>Fiji</option>
+                                <option>Finland</option>
+                                <option>France</option>
+                                <option>Gabon</option>
+                                <option>The Gambia</option>
+                                <option>Georgia</option>
+                                <option>Germany</option>
+                                <option>Ghana</option>
+                                <option>Greece</option>
+                                <option>Grenada</option>
+                                <option>Guatemala</option>
+                                <option>Guinea</option>
+                                <option>Guinea-Bissau</option>
+                                <option>Guyana</option>
+                                <option>Haiti</option>
+                                <option>Honduras</option>
+                                <option>Hungary</option>
+                                <option>Iceland</option>
+                                <option>India</option>
+                                <option>Indonesia</option>
+                                <option>Iran</option>
+                                <option>Iraq</option>
+                                <option>Ireland</option>
+                                <option>Israel</option>
+                                <option>Italy</option>
+                                <option>Jamaica</option>
+                                <option>Japan</option>
+                                <option>Jordan</option>
+                                <option>Kazakhstan</option>
+                                <option>Kenya</option>
+                                <option>Kiribati</option>
+                                <option>Korea, North</option>
+                                <option>Korea, South</option>
+                                <option>Kosovo</option>
+                                <option>Kuwait</option>
+                                <option>Kyrgyzstan</option>
+                                <option>Laos</option>
+                                <option>Latvia</option>
+                                <option>Lebanon</option>
+                                <option>Lesotho</option>
+                                <option>Liberia</option>
+                                <option>Libya</option>
+                                <option>Liechtenstein</option>
+                                <option>Lithuania</option>
+                                <option>Luxembourg</option>
+                                <option>Madagascar</option>
+                                <option>Malawi</option>
+                                <option>Malaysia</option>
+                                <option>Maldives</option>
+                                <option>Mali</option>
+                                <option>Malta</option>
+                                <option>Marshall Islands</option>
+                                <option>Mauritania</option>
+                                <option>Mauritius</option>
+                                <option>Mexico</option>
+                                <option>Micronesia, Federated States of</option>
+                                <option>Moldova</option>
+                                <option>Monaco</option>
+                                <option>Mongolia</option>
+                                <option>Montenegro</option>
+                                <option>Morocco</option>
+                                <option>Mozambique</option>
+                                <option>Myanmar (Burma)</option>
+                                <option>Namibia</option>
+                                <option>Nauru</option>
+                                <option>Nepal</option>
+                                <option>Netherlands</option>
+                                <option>New Zealand</option>
+                                <option>Nicaragua</option>
+                                <option>Niger</option>
+                                <option>Nigeria</option>
+                                <option>North Macedonia</option>
+                                <option>Norway</option>
+                                <option>Oman</option>
+                                <option>Pakistan</option>
+                                <option>Palau</option>
+                                <option>Panama</option>
+                                <option>Papua New Guinea</option>
+                                <option>Paraguay</option>
+                                <option>Peru</option>
+                                <option>Philippines</option>
+                                <option>Poland</option>
+                                <option>Portugal</option>
+                                <option>Qatar</option>
+                                <option>Romania</option>
+                                <option>Russia</option>
+                                <option>RwandaSaint Kitts and Nevis</option>
+                                <option>Saint Lucia</option>
+                                <option>Saint Vincent and the Grenadines</option>
+                                <option>Samoa</option>
+                                <option>San Marino</option>
+                                <option>Sao Tome and Principe</option>
+                                <option>Saudi Arabia</option>
+                                <option>Senegal</option>
+                                <option>Serbia</option>
+                                <option>Seychelles</option>
+                                <option>Sierra Leone</option>
+                                <option>Singapore</option>
+                                <option>Slovakia</option>
+                                <option>Slovenia</option>
+                                <option>Solomon Islands</option>
+                                <option>Somalia</option>
+                                <option>South Africa</option>
+                                <option>Spain</option>
+                                <option>Sri Lanka</option>
+                                <option>Sudan</option>
+                                <option>Sudan, South</option>
+                                <option>Suriname</option>
+                                <option>Sweden</option>
+                                <option>Switzerland</option>
+                                <option>Syria</option>
+                                <option>Taiwan</option>
+                                <option>Tajikistan</option>
+                                <option>Tanzania</option>
+                                <option>Thailand</option>
+                                <option>Togo</option>
+                                <option>Tonga</option>
+                                <option>Trinidad and Tobago</option>
+                                <option>Tunisia</option>
+                                <option>Turkey</option>
+                                <option>Turkmenistan</option>
+                                <option>Tuvalu</option>
+                                <option>Uganda</option>
+                                <option>Ukraine</option>
+                                <option>United Arab Emirates</option>
+                                <option>United Kingdom</option>
+                                <option>United States</option>
+                                <option>Uruguay</option>
+                                <option>Uzbekistan</option>
+                                <option>Vanuatu</option>
+                                <option>Vatican City</option>
+                                <option>Venezuela</option>
+                                <option>Vietnam</option>
+                                <option>Yemen</option>
+                                <option>Zambia</option>
+                                <option>Zimbabwe</option>
+                            </select></td>  
+                        </tr>
+
+                        <tr>
+                            <td><label for="email">email </label></td>
+                            <td><input type="text" id="email" name="email"></td>
+                        </tr>
+
+                        <tr>
+                        <td id="text" colspan="2"><textarea name="comment" id="message"  placeholder="Write a message"></textarea></td>
+                        </tr>
+
+                        <tr>
+                        <td ><button class="btn" type="submit"  onclick="validate();return false">submit</button></td><!-- function validate is called when the bitton is clicked-->
+                        </tr>
+
+                    </table>
+               </form>
+                
+            </div>
+
+
+
+        </div>
+
+        <div id="cookie" > <!-- cookie message-->
+            <h2> This site uses cookie </h2>
+            <br>
+            <hr>
+            <br>
+            <p>
+                We are using cookies to give you the best experience on our site. Cookies are files stored in your browser and are used by most websites to help personalize your web experience.By clicking on the "accept & close" button or by continuing to use the site you agree to our privacy and cookie policy. 
+            </p>
+            <button type="submit" id="cookiebtn" onclick="hideCookie()">accept & close</button><!-- function hide cookie is called when the button is clicked-->
+        </div>
+
+        <div class="footer"> <!-- footer with copy right information-->
+           <p>copyright &copy; 2021 All rights reserved | Created by Regan Raj Maharjan</p>
+         </div>
+
+    </div>
+
+     <!-- linking external javascript file-->
+     <script src="coursework.js">     </script> 
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="description" content="This webpage represents coursework 3 from the modile introduction to information system">
+    <meta name="keywords" content="portfolio website, website, CV, blog, portfolio, html, css, javascript ">
+    <meta name="author" content="Regan Raj Maharjan">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CV</title>
+    <link rel="stylesheet" href="coursework.css"><!-- linking external css file-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"> <!-- importing social media fonts from font awesome -->
+    <style>/* internal css for navigation buttons and social media icons*/
+        .btn {
+            color: black;
+        }
+        
+        .pressed {
+            border-bottom: 3px solid black ;
+        }
+
+        .btn:hover {
+            border-bottom: 3px solid black;
+        }
+
+        .icons i {
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container cv">
+        <div class="header" style="background-image: url(images/cvbg.jpg);"> 
+            <nav class="nav"> <!-- creating navigation bar -->
+
+                <!-- logo-->
+                <img src="images/logob.png" alt="logo">
+
+                <!-- navigation buttons-->
+                <a href="home.html" class="btn "> Home </a> 
+                <a href="cv.html"  class="btn pressed" > CV </a>
+                <a href="research.html" class="btn"> research </a>
+                <a href="blog.html" class="btn"> Blog </a>
+                <a href="contact.html" class="btn"> contact </a>
+
+                <!-- social media icons-->
+                <div class="icons">
+                    <a href="https://facebook.com"> <i id="facebook" class="fab fa-facebook "></i> </a>
+                    <a href="https://twitter.com"> <i id="twitter" class="fab fa-twitter "></i> </a>
+                    <a href="https://instagram.com"> <i id="instagram" class="fab fa-instagram "></i> </a>
+                    <a href="https://youtube.com"> <i id="youtube" class="fab fa-youtube "></i> </a>
+                    <a href="https://linkedin.com"> <i id="linkedin" class="fab fa-linkedin "></i> </a>
+                </div>
+            </nav>
+
+            <div id="topblock" >
+                <p>more about me.</p><!-- huge text in header-->
+            </div>
+
+        </div>
+
+
+        <div class="main"> <!-- container of cv-->
+
+           
+
+            <div id="block1" class="block black"> <!-- first section of cv-->
+                <h1>Curriculum Vitae</h1>
+                <p>Detail-oriented web developer with a commitment of delivering elegant, user-friendly and effective website. Team and goal oriented with excellent time management skills bringing forth expertise in design, testing and maintenance of web systems. The satisfaction of problem solving is what drives me to be a better developer.</p>
+                <h2> skills highlight </h2>
+                <ul>
+                    <li>Project management</li>
+                    <li>Strong Decision maker</li>
+                    <li>Problem solver</li>
+                    <li>Creative Design</li>
+                    <li>Innoviative</li>
+                    <li>Service-focused</li>
+                    <li>adaptable and able to pick up new technologies</li>
+                    <li>good communication skills</li>
+                </ul>
+            </div>
+
+            <div id="block2" class="block white"> <!-- second section of cv-->
+                <h2> Technologies</h2>
+                <ul>
+                    <li>Experience with :</li>
+                    <li>Html5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>SQL</li>
+                    <li>Java</li>
+                    <li>Visual Basic</li>
+                    <li>Adobe Photoshop</li>
+                    <li>Adobe illustrator</li>
+                </ul>
+            </div>
+
+            <div id="block3" class="block black"><!-- third section of cv-->
+                <h2> Education</h2>
+                <div>
+                    <p class="course">B.Sc Computing (Hons) </p>
+                    <p class="institute">Islington College, Kamal Marg, Kathmandu 44600 | 2021 february - present</p>
+                    <p class="course"> Graphic Design</p>
+                    <p class="institute">Neosphere, Madan Bhandari Road, Kathmandu 44600 | 2020 - present</p>
+                    <p class="course">GCE A level</p>
+                    <p class="institute">Little Angel's college, Hattiban, Lalitpur 44700 | 2017 june - 2019 october
+                        <ul>
+                            <li>computer science</li>
+                            <li>Physics</li>
+                            <li>Maths</li>
+                            <li>GP</li>
+                        </ul>
+                    </p>
+                    <p class="course">SEE</p>
+                    <p class="institute">Little Angel's School, Hattiban, Lalitpur 44700 | 2006 - 2017</p>
+                                     
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer"> <!-- footer with copyright information-->
+            <p>copyright &copy; 2021 All rights reserved | Created by Regan Raj Maharjan</p>
+         </div>
+        
+    
+    </div>
+
+     <script src="coursework.js"></script> <!-- linking external javascript file -->
+
+</body>
+</html>
